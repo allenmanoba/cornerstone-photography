@@ -30,9 +30,11 @@
 
   <!-- Hero Section -->
   <header class="hero">
-    <!-- Drone video background - Using Google Drive video -->
+    <!-- Drone video background - Pexels aerial video -->
     <video class="hero-bg" autoplay muted loop playsinline>
-      <source src="https://drive.google.com/uc?export=download&id=1sEN-oOLvSaMppqhMcMFGqqxsXBVNHax_" type="video/mp4">
+      <source src="https://videos.pexels.com/video-files/25649745/25649745-hd_1920_1080_30fps.mp4" type="video/mp4">
+      <!-- Fallback for different resolution if needed -->
+      <source src="https://videos.pexels.com/video-files/25649745/25649745-sd_640_360_25fps.mp4" type="video/mp4">
       <!-- Fallback image if video doesn't load -->
       <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Luxury home exterior at dusk">
     </video>
